@@ -1,3 +1,3 @@
 #!/bin/sh
 
-docker build -t local/cobbler .
+docker build -t honnix/cobbler .

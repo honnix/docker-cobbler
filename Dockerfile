@@ -4,8 +4,9 @@ MAINTAINER hxliang1982@gmail.com
 
 # pykickstart installed for `cobbler validateks`
 RUN yum -y install epel-release;\
-yum -y install file cobbler cobbler-web pykickstart
-RUN touch /etc/xinetd.d/rsync
+yum -y install file cobbler cobbler-web pykickstart;\
+yum clean all;\
+touch /etc/xinetd.d/rsync
 
 EXPOSE 80 443
 

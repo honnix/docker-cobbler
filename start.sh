@@ -12,4 +12,4 @@ docker run \
 -v /volume1/tftpboot:/var/lib/tftpboot \
 -p 3080:80 \
 -p 3443:443 \
---name local_cobbler local/cobbler
+--name honnix_cobbler honnix/cobbler
